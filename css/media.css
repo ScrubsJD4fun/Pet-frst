@@ -1,0 +1,233 @@
+@media(max-width:992px) {
+  .hero__main {
+    padding: 132px 0;
+    }
+
+  .hero__title {
+    font: 700 50px / 100% 'Roboto';
+   }
+
+   .hero__title_offset {
+    margin-bottom: 17px;
+   }
+
+   .hero__img {
+    height: 95%;
+   }
+
+   .hero__img_bg {
+    background-image: url('../img/hero-img2.png');
+   }
+
+   /* advant */
+   .container__advant {
+    padding-bottom: 73px;
+}
+
+   .advant__img__first {
+    width: 211px;
+    height: 187px;
+   }
+
+   .advant__text {
+    padding-left: 5px;
+    padding-right: 0;
+  }
+
+  .advant__points {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .advant__points__descr {
+    padding-top: 13px;
+}
+
+/* masters */
+.fit-picture {
+  width: 330px;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.masters__container {
+  padding-bottom: 27px;
+}
+
+.masters__card {
+  margin-bottom: 23px;
+}
+
+/* courses */
+.courses__block {
+  min-height: 556px;
+}
+
+.courses__descr {
+  min-height: 185px;
+}
+
+.courses__item {
+  margin-bottom: 24px;
+}
+
+.courses__bg__item {
+  display: block;
+  width: 100%;
+}
+
+}
+
+@media(max-width:600px)  {
+  .header__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .hero__main {
+    padding: 77px 0 135px;
+}
+
+.container__advant {
+  padding-top: 57px;
+  padding-bottom: 55px;
+}
+
+.advant__points__descr {
+  padding-top: 10px;
+}
+
+
+.advant__text {
+  padding-top: 24px;
+}
+
+.advant__img__first {
+  width: 150px;
+  height: 134px;
+ }
+
+ /* masters */
+ .fit-picture {
+  width: 240px;
+  height: 180px;
+  }
+
+  .masters__container {
+    padding-bottom: 50px;
+  }
+
+  .masters__name {
+    padding-bottom: 8px;
+}
+
+/* courses */
+.courses__block {
+  min-height: 653px;
+}
+
+.courses__descr {
+  min-height: 257px;
+}
+
+}
+
+@media(max-width:500px) {
+  .header__container {
+    display: flex;
+    padding: 23px 15px;
+    align-items: initial;
+  }
+
+  .logo {
+    margin-right: 0;
+    margin-bottom: 24px;
+    align-self: center;
+  }
+   .header__list {
+    overflow: auto;
+  }
+
+  .header__list::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+  }
+
+  .hero__main {
+    padding: 50px 0;
+  }
+
+  .hero__title {
+    font: 700 30px / 100% 'Roboto';
+   }
+
+   .hero__title_offset {
+    margin-bottom: 6px;
+   }
+
+   .hero__descr {
+    margin-bottom: 44px;
+    font: 400 16px / 130% 'Roboto';
+   }
+
+   .header__btn {
+    padding: 20.5px 53.5px;
+    font: 700 16px 'Roboto';
+   }
+
+   /* advant */
+   .container__advant {
+    padding: 50px 0;
+  }
+
+  .advant__list {
+    gap: 30px;
+  }
+
+   .advant__img {
+    display: none;
+   }
+
+   .advant__text {
+    padding: 0px 15px;
+}
+
+   .advant__title {
+    margin-bottom: 2px;
+    font: 700 20px / 130% 'Roboto';
+   }
+
+   .advant__points {
+    flex-direction: row;
+}
+    .advant__points__descr {
+      padding-top: 3px;
+      padding-left: 30px;
+    }
+
+  /* masters */
+  .masters__container {
+    padding-top: 48px;
+    padding-bottom: 23px;
+}
+
+  .masters__title {
+    margin-bottom: 26px;
+    font-size: 20px;
+  }
+
+  .fit-picture {
+    width: 290px;
+    height: 180px;
+    }
+
+    /* courses */
+
+
+}
